@@ -49,9 +49,10 @@ export default function MembersLi({ selectedTab }) {
             {selectedTab === 'PHYSIOTHERAPIST' && (
               <div className={style.teamTerapist}>
                 <div className={style.divMember}>
-                <img src={BrayhamPhysio} alt="Brayham Delgado" className={style.imgGildo}/>
+                <img src={BrayhamPhysio} alt="Brayham Delgado" className={style.imgBrayham}/>
                 <h1 className={style.nameMember}>BRAYHAM DELGADO</h1>
-                <p className={style.pMember}> No description</p>
+                <p className={style.pMember}> Profession: Specialized Physiotherapist in Sports Therapy, Geriatric Therapy, and Pediatric Therapy
+Experience: Over 4 years of experience in sports physiotherapy and rehabilitation.</p>
                 </div>
               </div>
             )}

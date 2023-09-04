@@ -1,21 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-header{
+
+header {
     width: 100vw;
     height: 8vh;
     background-color: black;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 0.8%;
 }
-.logoDark{
+
+.logoDark {
     width: auto;
     height: 5vh;
 }
-span{
+
+span {
     color: white;
     font-family: 'Caveat', cursive;
     width: auto;
     height: 50%;
-    font-size:larger;
+    font-size: larger;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 6.7in) {
+    header {
+        padding: 1%;
+    }
+
+    .logoDark {
+        width: auto;
+        height: 35%;
+    }
+
+    span {
+        height: 30%;
+        font-size: medium;
+    }
 }
