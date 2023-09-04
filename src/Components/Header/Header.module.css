@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+header{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.8%;
+}
+.logoDark{
+    width: auto;
+    height: 5vh;
+}
+span{
+    color: white;
+    font-family: 'Caveat', cursive;
+    width: auto;
+    height: 50%;
+    font-size:larger;
+}

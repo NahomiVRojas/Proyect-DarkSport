@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@700&family=Knewave&family=Montserrat:wght@500&family=Oswald:wght@300;600&family=Roboto+Condensed:wght@300&display=swap');
+.vmoPusImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    min-height: 100vh;
+}
+.vmoAll{
+    width: 70vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    backdrop-filter: blur(1.1vh);
+    background-color: rgba(77, 77, 77, 0.482);
+}
+.divVision, .divMission, .divObjectives{
+    width: 90%;
+    padding: 2rem;
+    margin-right: 0;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+.h1Vmo{
+    font-weight: bolder;
+    background-color: rgba(241, 51, 51, 0.443);
+    height: 3vh;
+    width: 100%;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+.liVmo{
+    padding: 1rem;
+}
+.h1Vmo, .pvmo, .liVmo{
+    font-size: large;
+    color: white;
+}
+.pvmo{
+    width: auto;
+    padding:1rem;
+    text-align: justify;
+}
+.imgAll{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.basketball, .football, .voleyball{
+    width: 90%;
+    height: auto;
+}
+.football{
+    width: 120%;
+    height: auto;
+}

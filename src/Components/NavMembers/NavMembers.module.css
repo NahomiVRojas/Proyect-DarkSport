@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@300&display=swap');
+
+.navAMembers {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navAMembers a {
+    width: 20%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    padding: 0.02rem;
+    color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-left: 0;
+    border-radius: 1.5vh;
+    backdrop-filter: blur(1.1vh);
+    background-color: rgba(216, 216, 216, 0.217);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navAMembers a::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    border-radius: 1vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #ce0fd8 0%, #5f47f9 100%);
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.navAMembers a:hover {
+    color: white;
+}
+
+.navAMembers a:hover::before {
+    width: 100%;
+}
+
+
+
+
