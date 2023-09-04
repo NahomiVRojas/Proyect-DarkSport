@@ -6,45 +6,53 @@ import GildoVillanueva from "../../views/images/GildoVillanueva.png"
 import JavierRojas from "../../views/images/JavierRojas.png"
 import BrayhamPhysio from "../../views/images/BrayhamDelgado.png"
 
-export default function MembersLi() {
-    return (
-        <>
+export default function MembersLi({ selectedTab }) {
+        return (
+          <>
             <div>
-                <div>
-                    <img src={CoachDaniel}></img>
+              {selectedTab === 'BASKETBALL COACHES' && (
+                <div className={style.teamCoaches}>
+                  <div>
+                    <img src={CoachDaniel} alt="Daniel Gonzales" />
                     <h1>Daniel Gonzales</h1>
                     <p>Coach Level III - Argentina, Former Coach in the Argentine League, Head Coach of Rayo AQP, Former Coach in the Mitre Association Argentina, Former Coach in Tierra del Fuego Argentina.</p>
-                </div>
-                <div>
-                    <img src={CoachEssau}></img>
+                  </div>
+                  <div>
+                    <img src={CoachEssau} alt="Essau Ramos" />
                     <h1>ESSAU RAMOS</h1>
                     <p> No description</p>
-                </div>
-                <div>
-                    <img src={CoachIrin}></img>
+                  </div>
+                  <div>
+                    <img src={CoachIrin} alt="Irin Stark" />
                     <h1>IRIN STARK</h1>
                     <p> No description</p>
+                  </div>
                 </div>
+              )}
             </div>
-            <div>
-                <div>
-                    <img src={GildoVillanueva}></img>
-                    <h1>GILDO VILLANUEVA</h1>
-                    <p> No description</p>
+      
+            {selectedTab === 'PSYCHOLOGISTS ON THE TEAM' && (
+              <div>
+                <div className={style.teamPsycologist}>
+                  <img src={GildoVillanueva} alt="Gildo Villanueva" />
+                  <h1>GILDO VILLANUEVA</h1>
+                  <p> No description</p>
                 </div>
                 <div>
-                    <img src={JavierRojas}></img>
-                    <h1>JAVIER ROJAS</h1>
-                    <p> No description</p>
+                  <img src={JavierRojas} alt="Javier Rojas" />
+                  <h1>JAVIER ROJAS</h1>
+                  <p> No description</p>
                 </div>
-            </div>
-            <div>
-                <div>
-                    <img src={BrayhamPhysio}></img>
-                    <h1>BRAYHAM DELGADO</h1>
-                    <p> No description</p>
-                </div>
-            </div>
-        </>
-    )
+              </div>
+            )}
+      
+            {selectedTab === 'PHYSIOTHERAPIST' && (
+              <div className={style.teamTerapist}>
+                <img src={BrayhamPhysio} alt="Brayham Delgado" />
+                <h1>BRAYHAM DELGADO</h1>
+                <p> No description</p>
+              </div>
+            )}
+          </>
+        );
 }
