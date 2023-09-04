@@ -9,21 +9,21 @@ import BrayhamPhysio from "../../views/images/BrayhamDelgado.png"
 export default function MembersLi({ selectedTab }) {
         return (
           <>
-            <div>
+            <div className={style.allMembers}>
               {selectedTab === 'BASKETBALL COACHES' && (
                 <div className={style.teamCoaches}>
-                  <div>
-                    <img src={CoachDaniel} alt="Daniel Gonzales" />
-                    <h1>Daniel Gonzales</h1>
+                  <div className={style.divDaniel}>
+                    <img src={CoachDaniel} alt="Daniel Gonzales" className={style.imgDaniel}/>
+                    <h1>DANIEL GONZALES</h1>
                     <p>Coach Level III - Argentina, Former Coach in the Argentine League, Head Coach of Rayo AQP, Former Coach in the Mitre Association Argentina, Former Coach in Tierra del Fuego Argentina.</p>
                   </div>
-                  <div>
-                    <img src={CoachEssau} alt="Essau Ramos" />
+                  <div className={style.divEssau}>
+                    <img src={CoachEssau} alt="Essau Ramos" className={style.imgEssau}/>
                     <h1>ESSAU RAMOS</h1>
                     <p> No description</p>
                   </div>
-                  <div>
-                    <img src={CoachIrin} alt="Irin Stark" />
+                  <div className={style.divIrin}>
+                    <img src={CoachIrin} alt="Irin Stark" className={style.imgIrin}/>
                     <h1>IRIN STARK</h1>
                     <p> No description</p>
                   </div>

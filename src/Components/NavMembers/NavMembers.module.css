@@ -57,6 +57,36 @@
     width: 100%;
 }
 
-
-
+/*Members*/
+.allMembers{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+}
+.teamCoaches{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+}
+.divDaniel, .divEssau, .divIrin{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(1.1vh);
+    background-color: rgba(77, 77, 77, 0.096);
+    border-radius: 5%;
+}
+.imgDaniel, .imgIrin{
+    width: 90%;
+    height: auto;
+}
+.imgEssau{
+    width: 65%;
+    height: auto;
+}
 
