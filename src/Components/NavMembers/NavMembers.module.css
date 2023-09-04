@@ -72,7 +72,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.style.divMember{
+.divMember{
     width: 30%;
     height: 80%;
     display: flex;
