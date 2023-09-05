@@ -30,7 +30,6 @@ export default function MembersLi({ selectedTab }) {
                 </div>
               )}
             </div>
-      
             {selectedTab === 'PSYCHOLOGISTS ON THE TEAM' && (
               <div className={style.teamPsycologist}>
                 <div className={style.divMember}>
@@ -45,7 +44,6 @@ export default function MembersLi({ selectedTab }) {
                 </div>
               </div>
             )}
-      
             {selectedTab === 'PHYSIOTHERAPIST' && (
               <div className={style.teamTerapist}>
                 <div className={style.divMember}>

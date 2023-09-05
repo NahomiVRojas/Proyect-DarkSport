@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 8vh;
     background-color: black;
@@ -8,6 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.8%;
+    z-index: 2;
 }
 
 .logoDark {

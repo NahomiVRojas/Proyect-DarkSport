@@ -6,6 +6,7 @@
     flex-direction: row;
     width: auto;
     min-height: 100vh;
+    margin-top: 14vh;
 }
 .vmoAll{
     width: 70vw;
@@ -88,14 +89,15 @@
         padding: 0.2rem;
     }
     .liVmo{
-        padding: 1rem;
+        padding: 0.2rem;
+        padding-right: 1rem;
     }
     .h1Vmo, .pvmo, .liVmo{
-        font-size: small;
+        font-size: x-small;
     }
     .imgAll{
         width: 30vw;
-        height: 20vh;
+        height: 25vh;
         display: flex;
         justify-content: space-around;
         align-items: center;

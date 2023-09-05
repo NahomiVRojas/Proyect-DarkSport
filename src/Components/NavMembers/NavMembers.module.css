@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@700&family=Knewave&family=Montserrat:wght@500&family=Oswald:wght@300;600&family=Roboto+Condensed:wght@300&display=swap');
 
 .navAMembers {
-    width: 100vw;
-    height: 10vh;
+    position: fixed;
+    top: 14vh; /* Alinea .navAMembers debajo de nav */
+    left: 0;
+    width: 100%;
+    height: 8vh; /* Ajusta la altura según sea necesario */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,6 +14,8 @@
     color: white;
     font-family: 'Oswald', sans-serif;
     border-bottom: solid #5f47f9;
+    z-index: 1; /* .navAMembers estará debajo del header y del nav */
+    margin-bottom: 5%;
 }
 
 .navAMembers a {
@@ -79,14 +84,14 @@
 
 .divMember {
     width: 30%;
-    height: 80%;
+    height: 70%;
     display: flex;
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(1.1vh);
     background-color: rgba(0, 0, 0, 0.34);
     border-radius: 5%;
-    margin-top: 5%;
+    margin-top: 25vh;
 }
 
 .imgDaniel,
@@ -106,8 +111,9 @@
 }
 
 .imgBrayham {
-    width: 80%;
+    width: 70%;
     height: auto;
+    margin-top: 3rem;
 }
 
 .nameMember {
@@ -116,6 +122,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     backdrop-filter: blur(1.1vh);
     background-color: rgba(0, 0, 0, 0.628);
     color: white;
@@ -130,7 +137,7 @@
 .pMember {
     width: 100%;
     height: auto;
-    margin-top: 14vh;
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,11 +149,15 @@
 
 @media screen and (max-width: 6.7in) {
     .navAMembers {
+        top: 13vh; /* Alinea .navAMembers debajo de nav */
+        left: 0;
+        width: 100%;
         height: 20vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
+        z-index: 1;
     }
 
     .navAMembers a {
@@ -161,12 +172,14 @@
         display: flex;
         width: 100vw;
         height: auto;
-        align-items: center;
+        align-items:center;
+        margin-top: 70%;
+        justify-content: space-around;
     }
 
     .teamCoaches {
         width: 100vw;
-        height: 100vh;
+        height: 100cqmax;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -174,7 +187,7 @@
 
     .teamPsycologist {
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -182,10 +195,11 @@
 
     .teamTerapist {
         width: 100vw;
-        height: 70vh;
+        height:100vh;
         display: flex;
         flex-direction: column;
         justify-content:center;
+        margin-top: 0;
     }
 
     .divMember {
@@ -193,10 +207,12 @@
         height: 30%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content:center;
         flex-direction: row;
         backdrop-filter: blur(1.1vh);
         background-color: rgba(0, 0, 0, 0.34);
+        padding-top: 0;
+        margin-top: 0;
     }
 
     .imgDaniel,
@@ -216,7 +232,7 @@
     }
 
     .imgBrayham {
-        width: 50%;
+        width: 45%;
         height: auto;
     }
 
@@ -247,6 +263,6 @@
         text-align: justify;
         font-family: 'Montserrat', sans-serif;
         padding: 0;
-        font-size: xx-small ;
+        font-size: x-small ;
     }
 }

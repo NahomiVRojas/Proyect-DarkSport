@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@300&display=swap');
 
 nav {
+    position: fixed;
+    top: 8vh;
+    left: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,6 +11,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.756);
     width: 100vw;
     height: 6vh;
+    z-index: 1;
 }
 
 .a {

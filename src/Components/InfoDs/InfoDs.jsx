@@ -8,7 +8,7 @@ export default function InfoDs() {
                 <img src={logoDS} alt='Logo DarkSport' className={styles.LogoHome}></img>
             </div>
             <div className={styles.Info}>
-                <p className={styles.pInfo}>"Association dedicated to recruiting and developing basketball talent, forging athletes and leaders at a national and international level."</p>
+                <p className={styles.pInfo}>"Association dedicated to recruiting and developing talent in volleyball, soccer, and basketball, forging athletes and leaders at a national and international level."</p>
             </div>
         </div>
     )
