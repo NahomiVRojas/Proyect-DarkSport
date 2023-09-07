@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@700&family=Knewave&family=Montserrat:wght@500&family=Oswald:wght@300;600&family=Roboto+Condensed:wght@300&display=swap');
 
 .divContenedor {
     width: 100vw;
@@ -7,17 +7,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .divTitle {
-    width: 60vw;
+    width: 80vw;
     height: 30vh;
     background-color: rgba(7, 6, 6, 0.642);
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-radius: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -27,11 +25,14 @@
     color: white;
     font-size: 5vw;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .divMailCell {
-    width: 70%;
-    height: auto;
+    width: 50%;
+    height: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,8 +50,8 @@
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
     cursor: pointer;
-    width: 50%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,8 +87,23 @@
 
 .contactP{
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-family: 'Oswald', sans-serif;
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 6.7in) {
+    .divTitle {
+        width: 80vw;
+        height: 30vh;
+        background-color: rgba(7, 6, 6, 0.642);
+        border-radius: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
 }
