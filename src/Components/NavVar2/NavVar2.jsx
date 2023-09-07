@@ -8,7 +8,7 @@ export default function NavVar(){
             <NavLink  exact="true" to="/" className={styles.a}>HOME</NavLink>
             <NavLink  exact="true" to="/aboutUs" className={styles.a}>ABOUT US</NavLink>
             <NavLink  exact="true" to="/members" className={styles.a}>MEMBERS</NavLink>
-            <NavLink  exact="true"to="/" className={styles.a}>CONTACT US</NavLink>
+            <NavLink  exact="true"to="/contactUs" className={styles.a}>CONTACT US</NavLink>
         </nav>
     )
 }

@@ -11,6 +11,7 @@ import App from './views/App';
 import Home from './views/Home';
 import AboutUs from './views/AboutUs';
 import Members from './views/Members';
+import ContactUs from './views/ContactUs';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'members',
         element: <Members />,
+      },
+      {
+        path: 'contactUs',
+        element: <ContactUs />,
       },
     ]
   }
