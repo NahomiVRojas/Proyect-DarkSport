@@ -80,7 +80,7 @@
 
 .divMember {
     width: 30%;
-    height: 70%;
+    min-height: fit-content;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -88,6 +88,7 @@
     background-color: rgba(0, 0, 0, 0.34);
     border-radius: 5%;
     margin-top: 25vh;
+    
 }
 
 .imgDaniel {
