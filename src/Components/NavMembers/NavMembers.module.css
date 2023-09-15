@@ -88,6 +88,7 @@
     background-color: rgba(0, 0, 0, 0.34);
     border-radius: 5%;
     margin-top: 25vh;
+    margin-bottom: 2vh;
 }
 
 .imgDaniel {
@@ -106,13 +107,14 @@
 }
 
 .imgGildo {
-    width: 71%;
+    width: 69%;
     height: auto;
 }
 
 .imgJavier {
-    width: 80%;
+    width: 78%;
     height: auto;
+    margin-top: 0.5vh;
 }
 
 .imgBrayham {
@@ -142,13 +144,14 @@
 .pMember {
     width: 100%;
     height: auto;
-    margin-top: 10vh;
+    margin-top: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-size:small;
     padding: 4%;
     padding-bottom: 2vh;
 }
@@ -156,7 +159,7 @@
 .pMemberE {
     width: 100%;
     height: auto;
-    margin-top: 8vh;
+    margin-top: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,6 +168,7 @@
     font-family: 'Montserrat', sans-serif;
     padding: 2%;
     padding-bottom: 2vh;
+    font-size:small;
 }
 
 @media screen and (max-width: 6.7in) {

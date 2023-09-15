@@ -45,7 +45,7 @@ export default function MembersLi({ selectedTab }) {
           <div className={style.divMember}>
             <img src={JavierRojas} alt="Javier Rojas" className={style.imgJavier} />
             <h1 className={style.nameMember}>JAVIER ROJAS</h1>
-            <p className={style.pMember}> Bachelor's degree in Psychology specializing in sports psychology. Extensive experience with high-performance athletes, including international and national representation in tournaments. Equipped to help athletes achieve peak performance by bridging physical preparation and mental health effectively.</p>
+            <p className={style.pMember}> Bachelor's degree in Sports Psychology with extensive experience working with high-performance athletes at the international and national levels. Skilled in optimizing athletes' performance by effectively integrating physical preparation and mental health.</p>
           </div>
         </div>
       )}

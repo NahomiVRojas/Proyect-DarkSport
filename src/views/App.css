@@ -2,7 +2,13 @@
     position: fixed;
     top: 0;
     left: 0;
+    right: 0; /* Agrega esta línea para estirar el elemento hasta la derecha */
+    bottom: 0; /* Agrega esta línea para estirar el elemento hacia abajo */
+    margin: auto; /* Esto centrará horizontalmente y verticalmente */
     width: auto;
     height: auto;
     z-index: -1;
 }
+
+
+

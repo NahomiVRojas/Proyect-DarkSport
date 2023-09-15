@@ -23,9 +23,9 @@ span {
     color: white;
     font-family: 'Caveat', cursive;
     width: auto;
-    height: 50%;
-    font-size: larger;
-    padding-left: 2rem;
+    height: 100%;
+    font-size:larger;
+    margin-right: 2rem;
 }
 
 @media screen and (max-width: 6.7in) {

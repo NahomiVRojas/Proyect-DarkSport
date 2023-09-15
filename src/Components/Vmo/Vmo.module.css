@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@700&family=Knewave&family=Montserrat:wght@500&family=Oswald:wght@300;600&family=Roboto+Condensed:wght@300&display=swap');
-.vmoPusImages{
+
+.vmoPusImages {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,16 +9,18 @@
     min-height: 100vh;
     margin-top: 14vh;
 }
-.vmoAll{
+
+.vmoAll {
     width: 70vw;
     height: auto;
     margin: 0;
     padding: 0;
     border: 0;
-    backdrop-filter: blur(1.1vh);
-    background-color: rgba(77, 77, 77, 0.482);
 }
-.divVision, .divMission, .divObjectives{
+
+.divVision,
+.divMission,
+.divObjectives {
     width: 90%;
     padding: 2rem;
     margin-right: 0;
@@ -25,55 +28,87 @@
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
 }
-.h1Vmo{
+
+.h1Vmo {
     font-weight: bolder;
-    background-color: rgba(241, 51, 51, 0.443);
-    height: 3vh;
+    background-color: rgb(184, 14, 14);
+    height: auto;
     width: 100%;
     padding: 0.2rem;
     padding-left: 1rem;
-}
-.liVmo{
-    padding: 1rem;
-}
-.h1Vmo, .pvmo, .liVmo{
     font-size: large;
     color: white;
+
 }
-.pvmo{
+
+h2 {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.liVmo {
+    backdrop-filter: blur(1.1vh);
+    background-color: rgba(255, 255, 255, 0.482);
+    list-style: none;
+    padding: 1rem;
+}
+
+.pvmo,
+.liVmo {
+    font-size: medium;
+    color: black;
+}
+
+.pvmo {
     width: auto;
-    padding:1rem;
+    padding: 1rem;
     text-align: justify;
+    backdrop-filter: blur(1.1vh);
+    background-color: rgba(255, 255, 255, 0.482);
 }
-.imgAll{
-    width:25vw;
+
+ul {
+    padding-left: 0;
+}
+
+.imgAll {
+    width: 25vw;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
-.basketball, .football, .voleyball{
+
+.basketball,
+.football,
+.voleyball {
     width: 90%;
     height: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
-.football{
+
+.football {
     width: 120%;
     height: auto;
 }
+
 @media screen and (max-width: 6.7in) {
-    .vmoPusImages{
+    .vmoPusImages {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .vmoAll{
+
+    .vmoAll {
         width: 80vw;
         margin-top: 10%;
     }
-    .divVision, .divMission, .divObjectives{
+
+    .divVision,
+    .divMission,
+    .divObjectives {
         width: 100%;
         padding: 0;
         margin-right: 0;
@@ -82,21 +117,27 @@
         text-align: justify;
         font-size: x-small;
     }
-    .h1Vmo{
+
+    .h1Vmo {
         font-weight: bolder;
         background-color: rgba(241, 51, 51, 0.443);
         height: 3vh;
         width: 100%;
         padding: 0.2rem;
     }
-    .liVmo{
+
+    .liVmo {
         padding: 0.2rem;
         padding-right: 1rem;
     }
-    .h1Vmo, .pvmo, .liVmo{
+
+    .h1Vmo,
+    .pvmo,
+    .liVmo {
         font-size: x-small;
     }
-    .imgAll{
+
+    .imgAll {
         width: 30vw;
         height: 25vh;
         display: flex;
