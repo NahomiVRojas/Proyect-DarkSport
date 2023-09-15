@@ -46,16 +46,17 @@
     text-align: justify;
 }
 .imgAll{
-    width: 30vw;
-    height: 100vh;
+    width:25vw;
+    height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
 .basketball, .football, .voleyball{
     width: 90%;
     height: auto;
+    margin-top: 20vh;
 }
 .football{
     width: 120%;
