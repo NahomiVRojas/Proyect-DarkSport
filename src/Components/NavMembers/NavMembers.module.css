@@ -88,7 +88,6 @@
     background-color: rgba(0, 0, 0, 0.34);
     border-radius: 5%;
     margin-top: 25vh;
-    
 }
 
 .imgDaniel {
@@ -151,6 +150,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding: 4%;
+    padding-bottom: 2vh;
 }
 
 .pMemberE {
@@ -164,6 +164,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding: 2%;
+    padding-bottom: 2vh;
 }
 
 @media screen and (max-width: 6.7in) {
